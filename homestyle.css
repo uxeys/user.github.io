@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: yellow;
+  }
+  header{
+      margin: 0;
+      padding: 0;
+      background-color: blueviolet;
+      position: fixed;
+      height: 50px;
+      width: 100%;
+      border-radius: none !important;
+      z-index: 10000;
+  }
+  .logout-content{
+    margin: 0;
+    height: 40px;
+    width: 6%;
+    background-color: #ffffff;
+    position: relative;
+    left: 94%;
+  }
+  .logout-content p{
+    margin: 0;
+    padding: 0;
+    height: 25px;
+    background-color: red;
+    width: 100%;
+    text-align: center;
+  }
+  .logout-button{
+      background-color: white;
+      opacity: 0.5;
+      margin: 0;
+      padding: 30px 16px 0px 16px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      text-align: center;
+
+  }
+
+  .header-content{
+      background-color: orange;
+      height: 200px;
+      width: 100%;
+  }
+  #home-page{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: 70px;
+    background-color: rosybrown;
+    height: 4   50px;
+    width: 100%;
+  
+  }
+  #my-group-home{
+      border: white 3px solid;
+      border-radius: 5px;
+      height: 70px;
+      width: 300px;
+      text-align: center;
+      text-decoration: none;
+      position: absolute;
+      top: 6%;
+      left: 20%;
+      line-height: 55px;
+      font-size: 30px;
+  }
+  #my-group-job{
+    border: white 3px solid;
+    border-radius: 5px;
+    height: 70px;
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    line-height: 55px;
+    font-size: 30px;
+  }
